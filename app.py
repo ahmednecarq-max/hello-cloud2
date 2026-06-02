@@ -5,7 +5,7 @@ import psycopg2 [cite: 33]
 app = Flask(__name__) [cite: 33]
 
 # Veritabanı bağlantı adresi (Render'dan aldığın URL buraya gelecek) [cite: 33, 144]
-DATABASE_URL = os.getenv("DATABASE_URL", "BURAYA_RENDER_VERITABANI_LINKINI_YAPISTIR") [cite: 33, 144]
+DATABASE_URL = os.getenv("DATABASE_URL", "postgresql://ahmed:L61zQ5loZnWdDT0fQT5aYmRhUwN57qoo@dpg-d8evvb19rddc73c51neg-a.oregon-postgres.render.com/hello_cloud3_db_ectf") [cite: 33, 144]
 
 # Web sitesinin görünümünü belirleyen HTML tasarımı [cite: 33]
 HTML = """
